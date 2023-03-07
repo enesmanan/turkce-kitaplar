@@ -10,7 +10,7 @@ Matriste seçim yapmak için extra bir işlem olarak `flatten()` metodu ile matr
 
 <b>Ödev4:</b> Bir dizi içerisindeki sayıları sıralayan fonksiyonu yazdık. Fonksiyonun çalışma prensibi, her iterasyonda en küçük elemanı seçerek o anki konumuna yerleştirmek ve daha sonra işlemi, kalan elemanlar üzerinde tekrarlamaktır.
 
-Detaylı bakarsak;
+Detaylı bakarsak:
 
 1. `for` döngüsü ile dizinin eleman uzunluğunca, diziyi eleman eleman gezeriz.
 2. Dizinin belirlenen aralığındaki en küçük sayının  indexini `argmin()` metodu ile buluyoruz. En küçük değerin indexini bulmak içinde `np.argmin()` metodunun sonucu, `i` değişkenine eklenir. Bu işlem her iterasyonda kalan bölüm içindeki en küçük sayının index'ini bulmak için tekrarlanır.
