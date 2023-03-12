@@ -11,5 +11,4 @@ for j in ulkeler:
         j = j.replace(j,'*')
         print(j)
     else:
-        pass
         print(j)
