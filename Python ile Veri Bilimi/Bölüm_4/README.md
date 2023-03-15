@@ -8,10 +8,7 @@
 
 <b>Ödev4:</b> Dersler ve öğretmenler listeleerindeki elemanları zip fonksiyonu ile bir tuple nesnesine dönüştürdük. Akabinde ders ve öğretmen çiftini ekrana bastıran bir for döngüsü oluşturduk.
 
-<b>Ödev5:</b> $f(x) = \begin{cases} 
-      0, & x < 0 \\ 
-      x, & x \geq 0
-   \end{cases}$ bu fonksiyonun döngü kullanmadan Python'da kodladık.
+<b>Ödev5:</b> <img width="126" alt="fonksiyon" src="https://user-images.githubusercontent.com/88631980/225249685-7d36fb55-bdca-4334-b769-388532a68bb3.png"> bu fonksiyonun döngü kullanmadan Python'da kodladık.
 
 <b>Ödev6:</b> Çalışma saati ve saat ücretini alarak kişinin ücretini hesaplayan bir program kodlandı. Eğer ki kişi 40 saatten fazla çalışmışsa, çalıştığı fazladan saat başına normal ücretin bir buçuk katını almasını sağlayacak bir koşul yazıldı. 
 
