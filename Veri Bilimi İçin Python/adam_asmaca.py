@@ -1,7 +1,7 @@
 import random
 
 def rastgele_kelime_tut():
-    kelimeler = ['python', 'numpy', 'pandas', 'scikit-learn', 'keras', 'tensorflow', 'matplotlib', 'pytorch', 'seaborn', 'flask', 'pillow', 'deepface']
+    kelimeler = ['python', 'numpy', 'pandas', 'scikitlearn', 'keras', 'tensorflow', 'matplotlib', 'pytorch', 'seaborn', 'flask', 'pillow', 'deepface']
     return random.choice(kelimeler)
 
 def asma_basamaklari(denemeler):
@@ -81,7 +81,7 @@ def oyun():
 
     print('ADAM ASMACA OYUNUNA HOS GELDINIZ!','\nYONERGE:', 
             'Programin rastgele bir sekilde tuttugu Python kutuphanesini tahmin etmeye calisin.',
-            '\nNOT: Tum kelimeler kucuk harflerden olusmaktadir ve 7 adet deneme hakkin vardir.')
+            '\nNOT: 7 adet deneme hakkiniz vardir.')
     
     while (denemeler > 0 or denemeler == 0) and tutulan_kelime != kelime:
         print(asma_basamaklari(denemeler))
