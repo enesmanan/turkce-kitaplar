@@ -1,4 +1,5 @@
 from colorama import Fore, Style
+# renk icin gerekli modul
 
 tahta = {'1': '', '2': '', '3': '',
         '4': '', '5': '', '6': '',
