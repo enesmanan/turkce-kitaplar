@@ -12,6 +12,6 @@
 
 <b>Ödev6:</b> Fibonacci serisindinde sıra numarası girildiğinde değeri döndüren fonksiyon yazıldı.
 
-<b>Ödev7:</b> Bir listeyi rastgele sayılarla dolduran kod yazıldı. Akabinde listedeki elemanları küçükten büyüğe sıralayan fonksiyon yazıldı.
+<b>Ödev7:</b> Tanımlanmış değişkenlerin çıktıları tahmin edilmeye çalışıldı ve çıktılarına bakıldı. 
 
-<b>Ödev8:</b> Tanımlanmış değişkenlerin çıktıları tahmin edilmeye çalışıldı ve çıktılarına bakıldı. 
+<b>Ödev8:</b>  Bir listeyi rastgele sayılarla dolduran kod yazıldı. Akabinde listedeki elemanları küçükten büyüğe sıralayan fonksiyon yazıldı.
