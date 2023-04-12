@@ -59,8 +59,8 @@ def iso_3166_kodlari():
 def tatil_bayram():
     tatiller = {
         'Yilbasi': datetime.date(datetime.date.today().year, 1, 1), # baz tarih
-        'Ulusal Egemenlik ve cocuk Bayrami': datetime.date(datetime.date.today().year, 4, 23),
-        'Emek ve Dayanisma Gunu': datetime.date(datetime.date.today().year, 5, 1),
+        'Ulusal Egemenlik ve Cocuk Bayrami': datetime.date(datetime.date.today().year, 4, 23),
+        'Isci Bayrami': datetime.date(datetime.date.today().year, 5, 1),
         'Ataturk\'u Anma Genclik ve Spor Bayrami': datetime.date(datetime.date.today().year, 5, 19),
         'Ramazan Bayrami': datetime.date(datetime.date.today().year, 4, 21) + relativedelta(days=1), # 1. gunu
         'Kurban Bayrami': datetime.date(datetime.date.today().year, 6, 29) + relativedelta(days=1), # 1. gunu
@@ -91,6 +91,7 @@ def finaller_2023():
 
 def main():
     giris = int(input('''
+    Merhaba!
     Iki tarih arasindaki farki hesaplamak icin 1
     Dogum gunune kac gun kaldigini gormek icin 2
     Takvimi gormek icin 3
