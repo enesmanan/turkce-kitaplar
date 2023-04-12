@@ -39,14 +39,17 @@ def print_calendar():
 
 # girilen ulkeye gore yerel saati getirir
 def dunya_saati():
-    ulke = input('Lutfen bir ulke adi girin: ')
-    try:
-        saat_dilimi = pytz.country_timezones[ulke][0]
-        yerel_saat = datetime.datetime.now(pytz.timezone(saat_dilimi))
-        print('su an saat', yerel_saat.strftime('%H:%M'), ':', yerel_saat.strftime('%S'), '(', saat_dilimi, 'saati)')
+    ulke = input('Lutfen bir ulke kodu giriniz: \nTum ulke kodlarini gormek icin \'iso\' yaziniz.')    
+    if ulke == 'iso':
+        iso_3166_kodlari()
+    else:
+        try:
+            saat_dilimi = pytz.country_timezones[ulke][0]
+            yerel_saat = datetime.datetime.now(pytz.timezone(saat_dilimi))
+            print('su an saat', yerel_saat.strftime('%H:%M'), ':', yerel_saat.strftime('%S'), '(', saat_dilimi, 'saati)')
 
-    except KeyError:
-        print('ulke bulunamadi.')
+        except KeyError:
+            print('ulke bulunamadi.')
 
 # ulke etiketleri
 def iso_3166_kodlari():
@@ -77,7 +80,7 @@ def tatil_bayram():
         print('Bu yil kalan bir tatil veya bayram gunu yok.')
 
 def finaller_2023():
-    ege_final_tarihi = datetime.date(2023, 4, 24)
+    ege_final_tarihi = datetime.date(2023, 6, 12)
     kalan_gun = ege_final_tarihi - datetime.date.today()
     if kalan_gun.days > 0:
         print(f'Finallere {kalan_gun.days} gun kaldi.')
@@ -86,3 +89,30 @@ def finaller_2023():
     else:
         print('2023 finalleri zaten yapildi sinavi zaten yapildi.')
 
+def main():
+    giris = int(input('''
+    Iki tarih arasindaki farki hesaplamak icin 1
+    Dogum gunune kac gun kaldigini gormek icin 2
+    Takvimi gormek icin 3
+    Istenilen ulkenin saatini gormek icin 4
+    Tatil ve bayram gunlerine kac gun kaldigini gormek icin 5
+    Ege 2023 finallerine kalan zamani gormek icin 6'ya basiniz.
+    '''))
+
+    if giris == 1:
+        tarih_farki()
+    if giris == 2:
+        dogum_gunume_kadar()
+    if giris == 3:
+        print_calendar()
+    if giris == 4:
+        dunya_saati()
+    if giris == 5:
+        tatil_bayram()
+    if giris == 6:
+        finaller_2023()
+
+
+
+if __name__ == '__main__':
+    main()
