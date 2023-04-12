@@ -22,14 +22,12 @@ def dogum_gunume_kadar():
     tarih_gir = []
     for i in tarih:
         giris = input(f'Lutfen {i} giriniz: ')
-        tarih_gir.append(giris)
-    yil, ay, gun = map(int, tarih_gir)
-    dogum_gunu = datetime.datetime(yil, ay, gun)
-    if dogum_gunu.month >= bugun.month and dogum_gunu.day >= bugun.day:
-        next_birthday = datetime.datetime(bugun.year, dogum_gunu.month, dogum_gunu.day)
-    else:
-        next_birthday = datetime.datetime(bugun.year + 1, dogum_gunu.month, dogum_gunu.day)
-    kalan_gun = (next_birthday - bugun).days
+        tarih_gir.append(int(giris))
+    yil, ay, gun = tarih_gir
+    dogum_gunu = datetime.datetime(bugun.year, ay, gun)
+    if dogum_gunu < bugun:
+        dogum_gunu = datetime.datetime(bugun.year + 1, ay, gun)
+    kalan_gun = (dogum_gunu - bugun).days
     print('Dogum gunune', kalan_gun, 'gun kaldi.')
 
 def print_calendar():
