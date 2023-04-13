@@ -1,5 +1,9 @@
 # :orange_book: Python İle Veri Bilimi 
 Bu klasör kitabın ilgili bölümlerinde verilen alıştırmaların çözümlerini ve kod açıklamalarını içerir. Her bölümde alıştırma verilmediği için sadece alıştırmaların verildiği bölümlerinin kapsamı hakkında bilgi verilmiştir.
+
+# :sparkles: [Extra](https://github.com/enesmanan/turkce-kitaplar/tree/main/Python%20ile%20Veri%20Bilimi/Extra)
++ Kitabın 13 bölümünde anlatılan olasılık dağılımlarını daha da genişletilerek bu dağılımların görsel çıktılarını içeren bir notebook hazırlandı.
+
 ## :open_book: Alıştırma Verilen Bölümlerin İçerdiği Konular 
 
   + ## :point_right: [3. Bölüm Veri Yapıları](https://github.com/enesmanan/turkce-kitaplar/tree/main/Python%20ile%20Veri%20Bilimi/B%C3%B6l%C3%BCm_3) 
