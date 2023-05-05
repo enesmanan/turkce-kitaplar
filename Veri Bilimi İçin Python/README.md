@@ -36,12 +36,12 @@ Kitabın isminde veri bilimi ibaresi olsa da büyük bir kısımda Python temell
 ### :point_right: [Datetime Uygulamaları](https://github.com/enesmanan/turkce-kitaplar/blob/main/Veri%20Bilimi%20%C4%B0%C3%A7in%20Python/datetime_uygulamalar.py)
 + Datetime modülünü öğrenebilmek için çeşitli-ufak programların bir araya getirilmesinden oluşur. Program ile iki tarih arasındaki farkı bulmak, doğum gününe kaç gün kaldığını görmek, takvimi görüntülmek, istenilen ülkenin saatini görmek, tatil ve bayram günlerine kaç gün kaldığını öğrenmek gibi şeyler yapılabiliyor.
 
-**NOT:** Bu programı exe formatına getirdim, dileyenler [buradaki](https://drive.google.com/drive/folders/1t2TfsGxblBPyYrzBzz2RuYUcErF3ksvw?usp=sharing) adresten sağ yukarıdan tümünü indir deyip ***dist*** klasörünün içerisindeki run.exe dosyasını çalıştırarak, kendi bilgisayarında Python kurulu olmasa bile programı deneyimleyebilir.  
+**NOT:** Bu programı exe formatına getirdim, dileyenler [buradaki](https://drive.google.com/drive/folders/1t2TfsGxblBPyYrzBzz2RuYUcErF3ksvw?usp=sharing) adresten sağ yukarıdan tümünü indir deyip ***dist*** klasörünün içerisindeki ***run.exe*** dosyasını çalıştırarak, kendi bilgisayarında Python kurulu olmasa bile programı deneyimleyebilirsiniz.  
 
 ### :point_right: [IMDB Top 250](https://github.com/enesmanan/turkce-kitaplar/blob/main/Veri%20Bilimi%20%C4%B0%C3%A7in%20Python/imdb_veri_cekme.py)
-+ Bu program IMDB sitesinde top 250 olarak gözüken filmerin bilgilerini çeker akabinde bir csv dosyası oluşturur ve içerisine yazar.
++ Bu program IMDB sitesinde top 250 olarak gözüken filmlerin bilgilerini çeker akabinde bir csv dosyası oluşturur ve bilgileri içerisine yazar.
 
 ### :point_right: [Twitter Veri Çekme](https://github.com/enesmanan/turkce-kitaplar/blob/main/Veri%20Bilimi%20%C4%B0%C3%A7in%20Python/twitter_veri_cekme.py)
 + Twitter'an veri çekmenin birçok farklı yolu mevcuttur. Bu programı kodlarken ben de kitapta gösterilen [pytwitterscraper](https://github.com/mrwan200/pytwitterscraper) isimli modülü kullandım. Program ile Türkiye'deki ve diğer ülkelerdeki trend konuları görebilmek, kullanıcı adı veya ID'si girilen kişinin profil bilgilerine ulaşmak, bir tweetin bilgilerini veya yorumlarını görmek, girilen kullanıcı adını kullanan diğer kişileri görüntülemek ve kullanıcı adı bilinen bir kişinin ID bilgisine ulaşmak gibi işlemler yapılabilir. 
 
-**NOT:** Maalesef tweet çekmek işlemini bu paket ile yapamıyoruz. Tahminimce Elon Musk'ın Twitter'ı satın almasından sonra değişen politikalar ile alakalı. Tweet çekmek için [Tweepy](https://docs.tweepy.org/en/stable/) kütüphanesi kullanılabilir.
+**NOT:** Maalesef tweet çekme işlemini bu paket ile yapamıyoruz. Tahminimce Elon Musk'ın Twitter'ı satın almasından sonra değişen politikalar ile alakalı. (Tweet çekmek için [Tweepy](https://docs.tweepy.org/en/stable/) kütüphanesi kullanılabilir.)
