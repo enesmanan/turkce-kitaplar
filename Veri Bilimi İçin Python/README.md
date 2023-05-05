@@ -22,5 +22,26 @@ Kitabın isminde veri bilimi ibaresi olsa da büyük bir kısımda Python temell
 ### :point_right: [Adam Asmaca](https://github.com/enesmanan/turkce-kitaplar/blob/main/Veri%20Bilimi%20%C4%B0%C3%A7in%20Python/adam_asmaca.py)
 + Oyuncu bilgisayarın rastgele bir şekilde tuttuğu Python kütüphanesini tahmin etmeye çalışır.
 
-### :point_right: [İngilizce-Türkçe Sözlük](https://github.com/enesmanan/turkce-kitaplar/blob/main/Veri%20Bilimi%20%C4%B0%C3%A7in%20Python/ing_tr_sozluk.py)
-+
+### :point_right: [Ing-Tr Sözlük](https://github.com/enesmanan/turkce-kitaplar/blob/main/Veri%20Bilimi%20%C4%B0%C3%A7in%20Python/ing_tr_sozluk.py)
++ Bilmediğiniz bir ingilizce kelimeyi arayabilirsiniz. Eğer kelime [sozluk.txt](https://github.com/enesmanan/turkce-kitaplar/blob/main/Veri%20Bilimi%20%C4%B0%C3%A7in%20Python/sozluk.txt) dosyasının içinde yoksa, olmayan kelimeyi program ilk çalıştırıldığı anda otamatik olarak oluşan yeni_kelimeler.txt dosyasının içerisine, programın 2 numaralı fonksiyonu ile ekleyebilirsiniz. 
+
+**NOT:** Programın çalışabilmesi için sozluk.txt dosyası ile programın kaynak kodlarının aynı dizinde olması gerekiyor.
+
+### :point_right: [XOX Oyunu](https://github.com/enesmanan/turkce-kitaplar/blob/main/Veri%20Bilimi%20%C4%B0%C3%A7in%20Python/xox_oyunu.py)
++ XOX oyununu konsol üzerinden oynayabilirsiniz. Oyunda herhangi bir algoritma veya yapay zeka eşlik etmiyor, oyuncu sırası ile X ve O harflerini tahtada belirtilen yerlerden birisine koyar. 
+
+### :point_right: [E-Posta Doğrulama](https://github.com/enesmanan/turkce-kitaplar/blob/main/Veri%20Bilimi%20%C4%B0%C3%A7in%20Python/email_dogrulama.py)
++ Regex ile girilen e-postanın doğruluğu kontrol edilir. E-postaların içerisinde "." dışında özel karakterler bulunamayacağı için eğer özel karakter girildiyse onları kaldırarak girilen e-postayı tahmin etmeye çalışır.
+
+### :point_right: [Datetime Uygulamaları](https://github.com/enesmanan/turkce-kitaplar/blob/main/Veri%20Bilimi%20%C4%B0%C3%A7in%20Python/datetime_uygulamalar.py)
++ Datetime modülünü öğrenebilmek için çeşitli-ufak programların bir araya getirilmesinden oluşur. Program ile iki tarih arasındaki farkı bulmak, doğum gününe kaç gün kaldığını görmek, takvimi görüntülmek, istenilen ülkenin saatini görmek, tatil ve bayram günlerine kaç gün kaldığını öğrenmek gibi şeyler yapılabiliyor.
+
+**NOT:** Bu programı exe formatına getirdim, dileyenler [buradaki](https://drive.google.com/drive/folders/1t2TfsGxblBPyYrzBzz2RuYUcErF3ksvw?usp=sharing) adresten sağ yukarıdan tümünü indir deyip ***dist*** klasörünün içerisindeki run.exe dosyasını çalıştırarak, kendi bilgisayarında Python kurulu olmasa bile programı deneyimleyebilir.  
+
+### :point_right: [IMDB Top 250](https://github.com/enesmanan/turkce-kitaplar/blob/main/Veri%20Bilimi%20%C4%B0%C3%A7in%20Python/imdb_veri_cekme.py)
++ Bu program IMDB sitesinde top 250 olarak gözüken filmerin bilgilerini çeker akabinde bir csv dosyası oluşturur ve içerisine yazar.
+
+### :point_right: [Twitter Veri Çekme](https://github.com/enesmanan/turkce-kitaplar/blob/main/Veri%20Bilimi%20%C4%B0%C3%A7in%20Python/twitter_veri_cekme.py)
++ Twitter'an veri çekmenin birçok farklı yolu mevcuttur. Bu programı kodlarken ben de kitapta gösterilen [pytwitterscraper](https://github.com/mrwan200/pytwitterscraper) isimli modülü kullandım. Program ile Türkiye'deki ve diğer ülkelerdeki trend konuları görebilmek, kullanıcı adı veya ID'si girilen kişinin profil bilgilerine ulaşmak, bir tweetin bilgilerini veya yorumlarını görmek, girilen kullanıcı adını kullanan diğer kişileri görüntülemek ve kullanıcı adı bilinen bir kişinin ID bilgisine ulaşmak gibi işlemler yapılabilir. 
+
+**NOT:** Maalesef tweet çekmek işlemini bu paket ile yapamıyoruz. Tahminimce Elon Musk'ın Twitter'ı satın almasından sonra değişen politikalar ile alakalı. Tweet çekmek için [Tweepy](https://docs.tweepy.org/en/stable/) kütüphanesi kullanılabilir.
