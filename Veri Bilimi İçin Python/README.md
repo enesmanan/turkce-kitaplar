@@ -45,3 +45,8 @@ Kitabın isminde veri bilimi ibaresi olsa da büyük bir kısımda Python temell
 + Twitter'an veri çekmenin birçok farklı yolu mevcuttur. Bu programı kodlarken ben de kitapta gösterilen [pytwitterscraper](https://github.com/mrwan200/pytwitterscraper) isimli modülü kullandım. Program ile Türkiye'deki ve diğer ülkelerdeki trend konuları görebilmek, kullanıcı adı veya ID'si girilen kişinin profil bilgilerine ulaşmak, bir tweetin bilgilerini veya yorumlarını görmek, girilen kullanıcı adını kullanan diğer kişileri görüntülemek ve kullanıcı adı bilinen bir kişinin ID bilgisine ulaşmak gibi işlemler yapılabilir. 
 
 **NOT:** Maalesef tweet çekme işlemini bu paket ile yapamıyoruz. Tahminimce Elon Musk'ın Twitter'ı satın almasından sonra değişen politikalar ile alakalı. (Tweet çekmek için [Tweepy](https://docs.tweepy.org/en/stable/) kütüphanesi kullanılabilir.)
+
+### :point_right: [OpenCV Uygulamaları](https://github.com/enesmanan/turkce-kitaplar/blob/main/Veri%20Bilimi%20%C4%B0%C3%A7in%20Python/opencv_uygulamalari.py)
++ Kullanıcının bilgisayarından seçtiği bir resme döndürme, grileştirme ve blur atma gibi işlemler yapılabiliyor. 
+
+**NOT:** Bu programın çalışabilmesi için resmin bulunduğu dosya yolunda Türkçe karakter bulunmaması gerekiyor. Yani bilgisayarınızı Türkçe olarak kullanıyorsanız dosya yolunda Masa Üstü bulunabilir. Bu durumda dosya yolu Türkçe karakter içerdiği için program çalışmayacaktır.
