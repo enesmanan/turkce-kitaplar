@@ -4,11 +4,11 @@
 
 ### :blue_book: [Veri Bilimi İçin Python](https://github.com/enesmanan/turkce-kitaplar/tree/main/Veri%20Bilimi%20%C4%B0%C3%A7in%20Python)
 
+### :ledger: [Python](https://github.com/enesmanan/turkce-kitaplar/tree/main/Python)
+
 ### Algoritma
 
 ### TensorFlow ile Derin Öğrenme
-
-### Python
 
 ### Uygulamalarla Veri Bilimi
 
