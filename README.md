@@ -6,6 +6,8 @@
 
 ### :ledger: [Uygulamalarla Veri Bilimi](https://github.com/enesmanan/turkce-kitaplar/tree/main/Uygulamalarla%20Veri%20Bilimi)
 
+### :orange_book: [Projelerle Yapay Zeka](https://github.com/enesmanan/turkce-kitaplar/tree/main/Projelerle%20Yapay%20Zeka)
+
 ### :ledger: [Python](https://github.com/enesmanan/turkce-kitaplar/tree/main/Python)
 
 ### Algoritma
