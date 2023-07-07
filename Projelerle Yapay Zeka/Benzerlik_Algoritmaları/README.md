@@ -6,3 +6,9 @@
   + İngilizce için örnek bir spell checker programı eklendi. İleride Türkçe için [hunspell](https://github.com/hunspell/hunspell) kütüphanesi ile entegre çalışan bir spell checker programı kodlamayı düşünüyorum.
   + Kaynak: [https://www.youtube.com/watch?v=_nkQd9SyEpw](https://www.youtube.com/watch?v=_nkQd9SyEpw)
 + [Vektör Uzay Benzerlik Algortiması](https://github.com/enesmanan/turkce-kitaplar/blob/main/Projelerle%20Yapay%20Zeka/Benzerlik_Algoritmalar%C4%B1/vector_similarity.py)
++ [RGB Renk Koduna Göre En Yüksek Benzerlik Oranına Sahip Rengi Bulan Algoritma](https://github.com/enesmanan/turkce-kitaplar/blob/main/Projelerle%20Yapay%20Zeka/Benzerlik_Algoritmalar%C4%B1/rgb_similarity.py)  $\to$ Ödev_2
+  + Algoritma, konsoldan rastgele girilen RGB renk koduna göre isimlendirilmiş renklerden en yüksek benzerlik oranına sahip 3 rengi testpit eder ve döndürür.
+  + Renk kodlarını [buradaki](https://www.rapidtables.com/web/color/RGB_Color.html) siteden aldım ve toplamda 139 adet renk içeriyor.
+  + Renkleri algoritma her çalıştığında RGB değerlerini normalize etmek algoritmanın time complexity değerini olumsuz etkileyebileceği için ve kullancağım tüm uzay da bu değerlerden oluştuğu için algoritmaya RGB renk kodlarını normalize ederek verdim.
+  + RGB renk kodları $\to$ [RGBCodes.txt](https://github.com/enesmanan/turkce-kitaplar/blob/main/Projelerle%20Yapay%20Zeka/Benzerlik_Algoritmalar%C4%B1/RGBCodes.txt)
+  + Normalize edilmiş RGB renk kodları $\to$ [RGBCodes_normalized.txt](https://github.com/enesmanan/turkce-kitaplar/blob/main/Projelerle%20Yapay%20Zeka/Benzerlik_Algoritmalar%C4%B1/RGBCodes_normalized.txt)
