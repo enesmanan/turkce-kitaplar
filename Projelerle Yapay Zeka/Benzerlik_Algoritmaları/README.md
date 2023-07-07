@@ -5,3 +5,4 @@
 + [Spell Checker](https://github.com/enesmanan/turkce-kitaplar/blob/main/Projelerle%20Yapay%20Zeka/Benzerlik_Algoritmalar%C4%B1/spell_checker.py)
   + İngilizce için örnek bir spell checker programı eklendi. İleride Türkçe için [hunspell](https://github.com/hunspell/hunspell) kütüphanesi ile entegre çalışan bir spell checker programı kodlamayı düşünüyorum.
   + Kaynak: [https://www.youtube.com/watch?v=_nkQd9SyEpw](https://www.youtube.com/watch?v=_nkQd9SyEpw)
++ [Vektör Uzay Benzerlik Algortiması](https://github.com/enesmanan/turkce-kitaplar/blob/main/Projelerle%20Yapay%20Zeka/Benzerlik_Algoritmalar%C4%B1/vector_similarity.py)
