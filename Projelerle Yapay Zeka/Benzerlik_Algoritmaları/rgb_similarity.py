@@ -74,11 +74,10 @@ def get_most_similar_colors(input_colors, normalized_colors):
 normalized_colors = read_normalized_txt('RGBCodes_normalized.txt')
 
 user_input = []
-for i in range(1):
-    r = int(input('Enter the value of R: '))
-    g = int(input('Enter the value of G: '))
-    b = int(input('Enter the value of B: '))
-    user_input.append(VectorSimilarity.normalized([r, g, b]))
+r = int(input('Enter the value of R: '))
+g = int(input('Enter the value of G: '))
+b = int(input('Enter the value of B: '))
+user_input.append(VectorSimilarity.normalized([r, g, b]))
 
 most_similar_colors = get_most_similar_colors(user_input, normalized_colors)
 
