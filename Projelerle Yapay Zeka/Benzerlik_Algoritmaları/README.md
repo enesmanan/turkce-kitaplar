@@ -2,7 +2,7 @@
 ## Levenshtein Distance
 + [Levenshtein Benzerlik Algoritması](https://github.com/enesmanan/turkce-kitaplar/blob/main/Projelerle%20Yapay%20Zeka/Benzerlik_Algoritmalar%C4%B1/levenshtein_distance.py)
 + İki stringin birbirine dönüşümündeki en kısa mesafeyi (minimum edit distance) bulmak için en yaygın kullanılan yöntemlerden biri Levenshtein Mesafesi olduğu için, bu algoritmaya yabancı kaynaklarda Minimum Edit Distance de denilmektedir. Ancak, minimum edit distance sadece bir metrik olduğu için, Levenshtein algoritması dışında başka yöntemler ile de bulunabilir.
-+ [Ağırlıklı Levenshtein Benzerlik Algoritması](https://github.com/enesmanan/turkce-kitaplar/blob/main/Projelerle%20Yapay%20Zeka/Benzerlik_Algoritmalar%C4%B1/weighted_levenshtein_distance.py) $\to$ Ödev_1
++ [Ağırlıklı Levenshtein Benzerlik Algoritması](https://github.com/enesmanan/turkce-kitaplar/blob/main/Projelerle%20Yapay%20Zeka/Benzerlik_Algoritmalar%C4%B1/weighted_levenshtein_distance.py) $\to$ **Ödev_1**
   + Algoritmanın ağırlıklandırılması Türk alfabesindeki harf düzenine göre yapıldı. Klavyedeki harflerin yakınlıklarına göre de yapılabilir, o zaman bir Json dosyası yazmak gerekebilir.
 + [Spell Checker](https://github.com/enesmanan/turkce-kitaplar/blob/main/Projelerle%20Yapay%20Zeka/Benzerlik_Algoritmalar%C4%B1/spell_checker.py)
   + İngilizce için örnek bir spell checker programı eklendi. İleride Türkçe için [hunspell](https://github.com/hunspell/hunspell) kütüphanesi ile entegre çalışan bir spell checker programı kodlamayı düşünüyorum.
@@ -12,7 +12,7 @@
 
 ## Vector Space Similarity
 + [Vektör Uzay Benzerlik Algoritması](https://github.com/enesmanan/turkce-kitaplar/blob/main/Projelerle%20Yapay%20Zeka/Benzerlik_Algoritmalar%C4%B1/vector_similarity.py)
-+ [RGB Renk Koduna Göre En Yüksek Benzerlik Oranına Sahip Rengi Bulan Algoritma](https://github.com/enesmanan/turkce-kitaplar/blob/main/Projelerle%20Yapay%20Zeka/Benzerlik_Algoritmalar%C4%B1/rgb_similarity.py)  $\to$ Ödev_2
++ [RGB Renk Koduna Göre En Yüksek Benzerlik Oranına Sahip Rengi Bulan Algoritma](https://github.com/enesmanan/turkce-kitaplar/blob/main/Projelerle%20Yapay%20Zeka/Benzerlik_Algoritmalar%C4%B1/rgb_similarity.py)  $\to$ **Ödev_2**
   + Algoritma, konsoldan rastgele girilen RGB renk koduna göre isimlendirilmiş renklerden en yüksek benzerlik oranına sahip 3 rengi tespit eder ve döndürür.
   + Renk kodlarını [buradaki](https://www.rapidtables.com/web/color/RGB_Color.html) siteden aldım ve toplamda 139 adet renk içeriyor.
   + Renkleri algoritma her çalıştığında RGB değerlerini normalize etmek algoritmanın time complexity değerini olumsuz etkileyebileceği için ve kullancağım tüm uzay da bu değerlerden oluştuğu için algoritmaya RGB renk kodlarını normalize ederek verdim.
