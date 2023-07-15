@@ -11,10 +11,15 @@
 <hr style='border: 0.5px solid gray; margin: 25px 0;'>
 
 ## Vector Space Similarity
-+ [Vektör Uzay Benzerlik Algortiması](https://github.com/enesmanan/turkce-kitaplar/blob/main/Projelerle%20Yapay%20Zeka/Benzerlik_Algoritmalar%C4%B1/vector_similarity.py)
++ [Vektör Uzay Benzerlik Algoritması](https://github.com/enesmanan/turkce-kitaplar/blob/main/Projelerle%20Yapay%20Zeka/Benzerlik_Algoritmalar%C4%B1/vector_similarity.py)
 + [RGB Renk Koduna Göre En Yüksek Benzerlik Oranına Sahip Rengi Bulan Algoritma](https://github.com/enesmanan/turkce-kitaplar/blob/main/Projelerle%20Yapay%20Zeka/Benzerlik_Algoritmalar%C4%B1/rgb_similarity.py)  $\to$ Ödev_2
-  + Algoritma, konsoldan rastgele girilen RGB renk koduna göre isimlendirilmiş renklerden en yüksek benzerlik oranına sahip 3 rengi testpit eder ve döndürür.
+  + Algoritma, konsoldan rastgele girilen RGB renk koduna göre isimlendirilmiş renklerden en yüksek benzerlik oranına sahip 3 rengi tespit eder ve döndürür.
   + Renk kodlarını [buradaki](https://www.rapidtables.com/web/color/RGB_Color.html) siteden aldım ve toplamda 139 adet renk içeriyor.
   + Renkleri algoritma her çalıştığında RGB değerlerini normalize etmek algoritmanın time complexity değerini olumsuz etkileyebileceği için ve kullancağım tüm uzay da bu değerlerden oluştuğu için algoritmaya RGB renk kodlarını normalize ederek verdim.
   + RGB renk kodları $\to$ [RGBCodes.txt](https://github.com/enesmanan/turkce-kitaplar/blob/main/Projelerle%20Yapay%20Zeka/Benzerlik_Algoritmalar%C4%B1/RGBCodes.txt)
   + Normalize edilmiş RGB renk kodları $\to$ [RGBCodes_normalized.txt](https://github.com/enesmanan/turkce-kitaplar/blob/main/Projelerle%20Yapay%20Zeka/Benzerlik_Algoritmalar%C4%B1/RGBCodes_normalized.txt)
+
+<hr style='border: 0.5px solid gray; margin: 25px 0;'>
+
+## Cosine Similarity
++ [Kosinüs Benzerlik Algoritması](https://github.com/enesmanan/turkce-kitaplar/blob/main/Projelerle%20Yapay%20Zeka/Benzerlik_Algoritmalar%C4%B1/cosine_similarity.py)
