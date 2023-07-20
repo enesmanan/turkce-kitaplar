@@ -23,3 +23,5 @@
 
 ## Cosine Similarity
 + [Kosinüs Benzerlik Algoritması](https://github.com/enesmanan/turkce-kitaplar/blob/main/Projelerle%20Yapay%20Zeka/Benzerlik_Algoritmalar%C4%B1/cosine_similarity.py)
++ [TF-IDF Nedir?](https://github.com/enesmanan/turkce-kitaplar/blob/main/Projelerle%20Yapay%20Zeka/Benzerlik_Algoritmalar%C4%B1/TF-IDF.ipynb)
++ [TF-IDF Algoritması](https://github.com/enesmanan/turkce-kitaplar/blob/main/Projelerle%20Yapay%20Zeka/Benzerlik_Algoritmalar%C4%B1/tf_idf.py)
