@@ -8,7 +8,7 @@ TF-IDF işlemi, bir kelimenin dokümanlardaki önemini ölçer. Bu sayede, dokü
 
 Genel olarak iki dokümanı karşılaştırken TF-IDF yöntemi, her dokümandaki kelimelerin benzersizliğini dikkate alarak ortak kelimelerin etkisini azaltmasından dolayı daha uygun olarak kabul edilir. 
 
-**TF-IDF ile kosinüs benzerliğinde her dokümanda uniqe geçen kelime sayısı arttıkça dokümanlar arasındaki benzerlik oranı da artacaktır.**
+**TF-IDF ile kosinüs benzerliğinde her dokümanda unique geçen kelime sayısı arttıkça dokümanlar arasındaki benzerlik oranı da artacaktır.**
 
 ### Sklearn ile TF-IDF Kosinus Benzerliği 
 
