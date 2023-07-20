@@ -25,3 +25,9 @@
 + [Kosinüs Benzerlik Algoritması](https://github.com/enesmanan/turkce-kitaplar/blob/main/Projelerle%20Yapay%20Zeka/Benzerlik_Algoritmalar%C4%B1/cosine_similarity.py)
 + [TF-IDF Nedir?](https://github.com/enesmanan/turkce-kitaplar/blob/main/Projelerle%20Yapay%20Zeka/Benzerlik_Algoritmalar%C4%B1/TF-IDF.ipynb)
 + [TF-IDF Algoritması](https://github.com/enesmanan/turkce-kitaplar/blob/main/Projelerle%20Yapay%20Zeka/Benzerlik_Algoritmalar%C4%B1/tf_idf.py)
++ [TF-IDF ile Kosinüs Benzerliği](https://github.com/enesmanan/turkce-kitaplar/blob/main/Projelerle%20Yapay%20Zeka/Benzerlik_Algoritmalar%C4%B1/cosine_similarity_tf_idf.py)
++ [Standart vs TF-IDF  ile Optimize Edilmiş Kosinüs Benzerliği Arasındaki Farklar](https://github.com/enesmanan/turkce-kitaplar/blob/main/Projelerle%20Yapay%20Zeka/Benzerlik_Algoritmalar%C4%B1/kosinusBenzerligiFark.md) $\to$ **Ödev_3**
+
+<hr style='border: 0.5px solid gray; margin: 25px 0;'>
+
+## Matrix Similarity
