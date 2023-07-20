@@ -39,7 +39,7 @@ def tf_degeri(frekans, boyut):
 def idf_degeri(frekans_degerleri, idf_boyut):
     idf_values = {}
     for anahtar, deger in frekans_degerleri.items():
-        idf = math.log(idf_boyut / deger+1)
+        idf = math.log(idf_boyut / deger)
         idf_values[anahtar] = idf
     return idf_values
 
