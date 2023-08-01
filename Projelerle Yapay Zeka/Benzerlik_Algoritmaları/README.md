@@ -31,3 +31,11 @@
 <hr style='border: 0.5px solid gray; margin: 25px 0;'>
 
 ## Matrix Similarity
++ [Origin Matris Benzerliği](https://github.com/enesmanan/turkce-kitaplar/blob/main/Projelerle%20Yapay%20Zeka/Benzerlik_Algoritmalar%C4%B1/origin_matrix_similarity.py)
+  + Kitaptaki kodda bazı düzeltmeler yapıldı. (eksik import eklendi ve bazı küçük düzeltmeler yapıldı)
++ [Matris Benzerliği Algoritması](https://github.com/enesmanan/turkce-kitaplar/blob/main/Projelerle%20Yapay%20Zeka/Benzerlik_Algoritmalar%C4%B1/matrix_similarity.py)
+  + Matris benzerliğini hesaplamak için OpenCV kütüphanesinin içerisinde bulunan hazır fonksiyonlar kullanıldı. 
++ [PIL ile Görsel Fark](https://github.com/enesmanan/turkce-kitaplar/blob/main/Projelerle%20Yapay%20Zeka/Benzerlik_Algoritmalar%C4%B1/gorsel_fark.py)
+  + PIL (Pillow) kütüphanesindeki hazır fonksiyonlar ile iki görsel arasındaki farkı tespit eder ve image olarak ekrana döndürür.
++ [Toleranslı Benzerlik Tabanlı Vektör Uzay benzerliği Algoritması]()  $\to$ **Ödev_4**
++ [Tanimato Benzerlik Algoritması]() $\to$ **Ödev_5**
