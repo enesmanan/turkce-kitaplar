@@ -37,5 +37,6 @@
   + Matris benzerliğini hesaplamak için OpenCV kütüphanesinin içerisinde bulunan hazır fonksiyonlar kullanıldı. 
 + [PIL ile Görsel Fark](https://github.com/enesmanan/turkce-kitaplar/blob/main/Projelerle%20Yapay%20Zeka/Benzerlik_Algoritmalar%C4%B1/gorsel_fark.py)
   + PIL (Pillow) kütüphanesindeki hazır fonksiyonlar ile iki görsel arasındaki farkı tespit eder ve image olarak ekrana döndürür.
-+ [Toleranslı Benzerlik Tabanlı Vektör Uzay benzerliği Algoritması]()  $\to$ **Ödev_4**
-+ [Tanimato Benzerlik Algoritması]() $\to$ **Ödev_5**
++ [Toleranslı Benzerlik Algoritması](https://github.com/enesmanan/turkce-kitaplar/blob/main/Projelerle%20Yapay%20Zeka/Benzerlik_Algoritmalar%C4%B1/tolerant_similarity.py)  $\to$ **Ödev_4**
+  + Algoritma, tolerans değeri büyüdükçe iki piksel arasındaki renk farkının yüksek olmasına izin verir ve benzerlik oranı artar.
++ [Tanimoto Benzerlik Algoritması]() $\to$ **Ödev_5**
