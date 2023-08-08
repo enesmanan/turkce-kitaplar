@@ -39,4 +39,5 @@
   + PIL (Pillow) kütüphanesindeki hazır fonksiyonlar ile iki görsel arasındaki farkı tespit eder ve image olarak ekrana döndürür.
 + [Toleranslı Benzerlik Algoritması](https://github.com/enesmanan/turkce-kitaplar/blob/main/Projelerle%20Yapay%20Zeka/Benzerlik_Algoritmalar%C4%B1/tolerant_similarity.py)  $\to$ **Ödev_4**
   + Algoritma, tolerans değeri büyüdükçe iki piksel arasındaki renk farkının yüksek olmasına izin verir ve benzerlik oranı artar.
-+ [Tanimoto Benzerlik Algoritması](https://github.com/enesmanan/turkce-kitaplar/blob/main/Projelerle%20Yapay%20Zeka/Benzerlik_Algoritmalar%C4%B1/tanimoto_similarity.py) $\to$ **Ödev_5**
++ [Tanimoto Benzerliği Nedir](https://github.com/enesmanan/turkce-kitaplar/blob/main/Projelerle%20Yapay%20Zeka/Benzerlik_Algoritmalar%C4%B1/Tanimoto_Benzerligi.ipynb) $\to$ **Ödev_5**
++ [Tanimoto Benzerlik Algoritması](https://github.com/enesmanan/turkce-kitaplar/blob/main/Projelerle%20Yapay%20Zeka/Benzerlik_Algoritmalar%C4%B1/tanimoto_similarity.py) 
