@@ -34,10 +34,13 @@
 + [Origin Matris Benzerliği](https://github.com/enesmanan/turkce-kitaplar/blob/main/Projelerle%20Yapay%20Zeka/Benzerlik_Algoritmalar%C4%B1/origin_matrix_similarity.py)
   + Kitaptaki kodda bazı düzeltmeler yapıldı. (eksik import eklendi ve bazı küçük düzeltmeler yapıldı)
 + [Matris Benzerliği Algoritması](https://github.com/enesmanan/turkce-kitaplar/blob/main/Projelerle%20Yapay%20Zeka/Benzerlik_Algoritmalar%C4%B1/matrix_similarity.py)
-  + Matris benzerliğini hesaplamak için OpenCV kütüphanesinin içerisinde bulunan hazır fonksiyonlar kullanıldı. 
+  + Matris benzerliğini hesaplamak için OpenCV kütüphanesinin içerisinde bulunan hazır fonksiyonlar kullanıldı.
 + [PIL ile Görsel Fark](https://github.com/enesmanan/turkce-kitaplar/blob/main/Projelerle%20Yapay%20Zeka/Benzerlik_Algoritmalar%C4%B1/gorsel_fark.py)
   + PIL (Pillow) kütüphanesindeki hazır fonksiyonlar ile iki görsel arasındaki farkı tespit eder ve image olarak ekrana döndürür.
 + [Toleranslı Benzerlik Algoritması](https://github.com/enesmanan/turkce-kitaplar/blob/main/Projelerle%20Yapay%20Zeka/Benzerlik_Algoritmalar%C4%B1/tolerant_similarity.py)  $\to$ **Ödev_4**
   + Algoritma, tolerans değeri büyüdükçe iki piksel arasındaki renk farkının yüksek olmasına izin verir ve benzerlik oranı artar.
 + [Tanimoto Benzerliği Nedir](https://github.com/enesmanan/turkce-kitaplar/blob/main/Projelerle%20Yapay%20Zeka/Benzerlik_Algoritmalar%C4%B1/Tanimoto_Benzerligi.ipynb) $\to$ **Ödev_5**
-+ [Tanimoto Benzerlik Algoritması](https://github.com/enesmanan/turkce-kitaplar/blob/main/Projelerle%20Yapay%20Zeka/Benzerlik_Algoritmalar%C4%B1/tanimoto_similarity.py) 
++ [Tanimoto Benzerlik Algoritması](https://github.com/enesmanan/turkce-kitaplar/blob/main/Projelerle%20Yapay%20Zeka/Benzerlik_Algoritmalar%C4%B1/tanimoto_similarity.py)
+#### Gorseller
+  + Kitaptaki görsellere ek aşağıdaki gibi farklı görseller üzerinden de denemeler yapıldı.
+  + [gorsel1](https://github.com/enesmanan/turkce-kitaplar/blob/main/Projelerle%20Yapay%20Zeka/Benzerlik_Algoritmalar%C4%B1/gorsel1.png), [gorsel2](https://github.com/enesmanan/turkce-kitaplar/blob/main/Projelerle%20Yapay%20Zeka/Benzerlik_Algoritmalar%C4%B1/gorsel2.png)
