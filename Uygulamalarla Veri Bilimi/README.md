@@ -1,6 +1,6 @@
 # :orange_book: Uygulamalarla Veri Bilimi
 
-:bookmark_tabs: Kitabın içindekiler kısmına [buradan]() erişilebilir.
+:bookmark_tabs: Kitabın içindekiler kısmına [buradan](https://drive.google.com/file/d/19Zuw8qAAUewXebrpf2hG1XpMIcCaVBiN/view) erişilebilir.
 
 ## :open_book: Bölüm İçerikleri 
 
