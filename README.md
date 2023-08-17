@@ -1,15 +1,15 @@
 # Türkçe Kitaplar :books:
 
-:orange_book: Ödevler    :ledger: Notlar   :blue_book: Projeler  :green_book: Ödevler+Projeler
+:green_book: Ödevler    :ledger: Notlar   :blue_book: Projeler  :orange_book: Ödevler+Projeler 
 
 Bu repo veri bilimi, makine öğrenmesi, programlama, kriptografi vb. alanlarda ilgili Türkçe kaynaklardaki ödev çözümlerini, üretilmiş projeleri ve notları içerir.
 
 ## :sparkles: Veri Bilimi
 ### :orange_book:	[Python ile Veri Bilimi](https://github.com/enesmanan/turkce-kitaplar/tree/main/Python%20ile%20Veri%20Bilimi) 
 
-### :green_book:  [Uygulamalarla Veri Bilimi](https://github.com/enesmanan/turkce-kitaplar/tree/main/Uygulamalarla%20Veri%20Bilimi)
+### :orange_book:  [Uygulamalarla Veri Bilimi](https://github.com/enesmanan/turkce-kitaplar/tree/main/Uygulamalarla%20Veri%20Bilimi)
 
-### :green_book: [Projelerle Yapay Zeka](https://github.com/enesmanan/turkce-kitaplar/tree/main/Projelerle%20Yapay%20Zeka)
+### :orange_book: [Projelerle Yapay Zeka](https://github.com/enesmanan/turkce-kitaplar/tree/main/Projelerle%20Yapay%20Zeka)
 
 ### OpenCV ve Python ile Görüntü İşleme
 ------
